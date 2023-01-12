@@ -1,0 +1,219 @@
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+  margin-top: 100px;
+}
+
+.logo-div-inside {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.steam-labs-logo-div {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+}
+
+.page-content-ctn-labs {
+  display: flex;
+  justify-content: center;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.left-column {
+  float: left;
+  width: 560px;
+  margin-right: 20px;
+}
+
+.capsule {
+  background-image: radial-gradient(ellipse at top left, #515f85, #18264a);
+  border-radius: 4px;
+  margin: 0px 0px 30px 0px;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+.capsule-banner {
+  width: 540px;
+
+  margin: 0px 0px 5px 0px;
+}
+.capsule-banner-ctn {
+  width: 560px;
+
+  overflow: hidden;
+}
+
+.labs-images {
+  width: 100%;
+}
+
+@media (max-width: 991.5px) {
+  .left-column {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .capsule-banner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .capsule-banner-ctn {
+    width: 100%;
+  }
+}
+
+.exp_text_ctn {
+  padding: 10px;
+}
+
+.h2text {
+  text-transform: unset;
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: #00cbd4;
+  letter-spacing: 0.03em;
+}
+
+.labs-content p,
+.p-in-small-width {
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.5em;
+  margin: 0px 0px 10px 0px;
+  color: white;
+}
+
+.experiment-buttons {
+  text-align: left;
+  min-height: 43px;
+}
+
+.right-column {
+  float: left;
+  width: 360px;
+}
+
+.experiment-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 15px 5px 15px;
+  margin: 5px auto;
+  background-color: #edeef3;
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+  cursor: pointer;
+  user-select: none;
+}
+
+.experiment-button:hover {
+  background-color: #2d6bcd;
+  color: #fff;
+}
+
+a.experiment-button,
+a.experiment-button:visited {
+  color: #181d3a;
+}
+
+.right-column h1 {
+  padding-left: 20px;
+}
+
+.labs-content h1,
+.h1-in-small-width {
+  font-family: "Motiva Sans", Sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #00cbd4;
+  margin: 10px 0 4px;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+  padding-top: 2px;
+}
+
+.right-column-box,
+.right-column-box2 {
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.active-experiments-row {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.active-experiments-icon {
+  float: left;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.active-experiments-description {
+  float: left;
+  width: 275px;
+  margin: 5px;
+}
+
+a,
+a:visited {
+  color: #07d1da;
+}
+
+.active-experiments-icon img {
+  width: 50px;
+}
+
+@media (max-width: 991.5px) {
+  .page-content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 911.6px) {
+  .about-welcome-in-small-width {
+    opacity: 0;
+    height: 10px;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .right-column {
+    opacity: 0;
+    height: 0px;
+  }
+}
+
+@media (max-width: 991.5px) {
+  .right-column-box {
+    height: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+
+
